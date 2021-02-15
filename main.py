@@ -35,9 +35,9 @@ class Hangman:
 
             if self.event == 'Play':
                 if self.aux==0:
-                    c.select_word()
+                    self.select_word()
                 else:
-                    c.validation()
+                    self.validation()
                     
     def select_word(self):
         #select a random word
